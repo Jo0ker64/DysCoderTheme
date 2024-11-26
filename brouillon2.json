@@ -1,0 +1,243 @@
+{
+    "name": "DysCoder Universal Theme",
+    "colors": {
+        "editorError.foreground": "#ff0000",
+        "editorWarning.foreground": "#ddff00",
+        "editorInfo.foreground": "#003d79",
+        "editor.lineHighlightBorder": "#ffcb6b",
+        "editorIndentGuide.activeBackground1": "#FFCB6B",
+        "editorIndentGuide.background1": "#5C6370",
+        "editor.selectionHighlightBackground": "#ffcb6b20",
+        "editor.selectionHighlightBorder": "#ffcb6b",
+        "editorWhitespace.foreground": "#5C6370"
+    },
+    "tokenColors": [
+        {
+            "name": "Keywords",
+            "scope": [
+                "keyword",
+                "storage.type",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#C792EA"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
+                "variable",
+                "variable.parameter",
+                "support.variable"
+            ],
+            "settings": {
+                "foreground": "#02fffb"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string",
+                "constant.other.symbol"
+            ],
+            "settings": {
+                "foreground": "#ff017c"
+            }
+        },
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#0384fc"
+            }
+        },
+        {
+            "name": "Numbers and Constants",
+            "scope": [
+                "constant.numeric",
+                "constant.language"
+            ],
+            "settings": {
+                "foreground": "#fd7600"
+            }
+        },
+        {
+            "name": "Types",
+            "scope": [
+                "support.type",
+                "entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#4EC9B0"
+            }
+        },
+        {
+            "name": "HTML Tags",
+            "scope": [
+                "entity.name.tag"
+            ],
+            "settings": {
+                "foreground": "#F07178"
+            }
+        },
+        {
+            "name": "HTML Attributes",
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#FFCB6B"
+            }
+        },
+        {
+            "name": "CSS Properties",
+            "scope": [
+                "support.type.property-name"
+            ],
+            "settings": {
+                "foreground": "#89DDFF"
+            }
+        },
+        {
+            "name": "JS Functions",
+            "scope": [
+                "entity.name.function"
+            ],
+            "settings": {
+                "foreground": "#ff00ea"
+            }
+        },
+        {
+            "name": "Python Keywords",
+            "scope": [
+                "keyword.control",
+                "keyword.other"
+            ],
+            "settings": {
+                "foreground": "#fbff00"
+            }
+        },
+        {
+            "name": "PHP Variables",
+            "scope": [
+                "variable.other.php"
+            ],
+            "settings": {
+                "foreground": "#FF5370"
+            }
+        },
+        {
+            "name": "Ruby Symbols",
+            "scope": [
+                "constant.other.symbol"
+            ],
+            "settings": {
+                "foreground": "#F78C6C"
+            }
+        },
+        {
+            "name": "SQL Keywords",
+            "scope": [
+                "keyword.other.sql"
+            ],
+            "settings": {
+                "foreground": "#C792EA"
+            }
+        },
+        {
+            "name": "SQL Functions",
+            "scope": [
+                "support.function.sql"
+            ],
+            "settings": {
+                "foreground": "#82AAFF"
+            }
+        },
+        {
+            "name": "JSX Tags",
+            "scope": [
+                "meta.jsx"
+            ],
+            "settings": {
+                "foreground": "#F07178"
+            }
+        },
+        {
+            "name": "Angular/Vue Directives",
+            "scope": [
+                "entity.other.attribute-name.directive"
+            ],
+            "settings": {
+                "foreground": "#FFCB6B"
+            }
+        },
+        {
+            "name": "C/C++ Types",
+            "scope": [
+                "support.type"
+            ],
+            "settings": {
+                "foreground": "#B2CCD6"
+            }
+        },
+        {
+            "name": "Kotlin/Swift Keywords",
+            "scope": [
+                "keyword.control.kotlin",
+                "keyword.control.swift"
+            ],
+            "settings": {
+                "foreground": "#C792EA"
+            }
+        }
+    ],
+    "workbench.colorCustomizations": {
+        "editorError.foreground": "#ff0000",
+        "editorWarning.foreground": "#ddff00",
+        "editorInfo.foreground": "#003d79",
+        "editor.lineHighlightBackground": "#323232",
+        "editor.selectionBackground": "#2b2d12"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment.line.todo",
+                "settings": {
+                    "foreground": "#FFD700",
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "comment.line.fixme",
+                "settings": {
+                    "foreground": "#FF4500",
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "markup.heading",
+                "settings": {
+                    "foreground": "#FFCB6B",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "markup.list",
+                "settings": {
+                    "foreground": "#C792EA"
+                }
+            },
+            {
+                "scope": "markup.underline.link",
+                "settings": {
+                    "foreground": "#82AAFF",
+                    "fontStyle": "underline"
+                }
+            }
+        ]
+    }
+}
