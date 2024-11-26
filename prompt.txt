@@ -1,0 +1,73 @@
+On repart de zéro. 
+Le theme est pour les dys et cie.
+la police a ajouer au setting.json est OpenDyslexic
+Fond sombre pour éviter de fatigué les yeux.
+
+Organisation des éléments communs: "les couleurs peuvent être les mêmes d'un langage à un autre, mais la couleur ne doit pas etre mise 2 fois dans le meme langage." 
+"Couleur distinct pour les éléments spécifiques aux langages".
+
+Les commentaires peuvent avoir la même couleurs pour tous les langages et avoir une couleur unique à tout le reste. 
+exemple :
+HTML : balise, contenu, attributs, commentaires, entité HTML, script et style.
+CSS : sélecteur, propriété et valeur, déclaration, commentaires, bloc de déclaration.
+JS: variable, type de donée, opérateur, fonctions, objets, tableaux, conditions, boucles, évenement, DOM, asychrone. 
+PHP : variable, type de donée, opérateur, conditions, boucles, tableaux, fonctions, superglobales, connexion  BDD
+SQL : keywords, fonctions, .....
+Java : ......
+Python : .......
+
+Je veux que mon theme prenne en charge différent langage utilisé aujourdhui (ceux citer avant et Ruby, swift, C, C# et C++, golang, R, Visual Basic, 
+ Assembly language, Kotlin, flutter, unity, Elixir, phénix, typescript et Markdown ) Si tu en vois d'autre je prends. mais je pense avoir fait le tour
+
+
+par rapport à mon setting.json qu'est ce qui peut etre rajouter dans le theme sans toucher au setting. 
+{
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Atom One Dark",
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.stickyScroll.enabled": false,
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.iconTheme": "material-icon-theme",
+    "doublebot.showInlineKeybindingHint": "Never",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.editorAssociations": {
+        "*.xml": "default"
+    },
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "editor.fontFamily": "OpenDyslexic",
+    "editor.fontSize": 16, 
+    "editor.lineHeight": 24,                                                 
+    "editor.fontLigatures": true,                                          
+    "editor.tokenColorCustomizations": {                                    
+    "comments": "#0384fc",                         
+    "keywords": "#fbff00",                         
+    "functions": "#ff00ea",                       
+    "variables": "#02fffb",                         
+    "strings": "#ff017c",                           
+    "numbers": "#fd7600",                           
+    "types": "#4EC9B0",                             
+    },
+    "editor.guides.bracketPairs": true, 
+    "editor.bracketPairColorization.enabled": true,                        
+    "editor.cursorStyle": "block",                                       
+    "editor.cursorBlinking": "smooth",                                
+    "workbench.colorCustomizations": {
+    "editorError.foreground": "#ff0000",            
+    "editorWarning.foreground": "#ddff00",          
+    "editorInfo.foreground": "#003d79",             
+    "editor.background": "#030303",                 
+    "editor.foreground": "#D4D4D4",                 
+    "editor.lineHighlightBackground": "#323232",    
+    "editor.selectionBackground": "#2b2d12",
+    },
+    "editor.renderLineHighlight": "all",            
+    "editor.lineNumbers": "relative",
+    "editor.guides.highlightActiveIndentation": true, 
+}
