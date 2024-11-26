@@ -1,2 +1,2 @@
-# DysCoderTheme
-An accessible VS Code theme tailored for developers with Dyslexia or similar needs.
+# README pour DysCoder
+Voici une description combinée de votre projet. Vous pouvez adapter ce texte en fonction des besoins.
