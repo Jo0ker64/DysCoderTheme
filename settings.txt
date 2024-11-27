@@ -1,0 +1,90 @@
+{
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.openRepositoryInParentFolders": "never",
+    
+    "workbench.iconTheme": "material-icon-theme",
+
+    "security.workspace.trust.untrustedFiles": "open",
+    "doublebot.showInlineKeybindingHint": "Never",
+
+    "github.copilot.editor.enableAutoCompletions": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+
+    "editor.fontFamily": "OpenDyslexic",
+    "editor.fontSize": 16, 
+    "editor.lineHeight": 24,                                                 
+    "editor.fontLigatures": true,                                          
+    "editor.guides.bracketPairs": true, 
+    "editor.bracketPairColorization.enabled": true,                        
+    "editor.cursorStyle": "block",                                       
+    "editor.cursorBlinking": "smooth",           
+    
+    "editor.stickyScroll.enabled": true,
+    
+    "workbench.editorAssociations": {
+        "*.xml": "default", 
+        "*.json": "default",
+        "*.html": "default",
+        "*.css": "default",
+        "*.js": "default",
+        "*.py": "default",
+        "*.java": "default",
+        "*.cpp": "default",
+        "*.c": "default",
+        "*.h": "default",
+        "*.hpp": "default",
+        "*.md": "default",
+    },
+
+
+    "workbench.colorCustomizations": {
+        "editorError.foreground": "#ff0000",            
+        "editorWarning.foreground": "#ff8800",          
+        "editorInfo.foreground": "#0080ff", 
+        "editorGhostText.background": "#272727",
+        "editorGhostText.foreground": "#c4c4c4",
+        "editorGhostText.border": "#ff017c",
+
+        "activityBar.background": "#272727",
+        "activityBar.foreground": "#ffffff",
+        "activityBar.inactiveForeground": "#8d8d8d",
+        
+        "sideBar.background": "#272727",
+        "sideBar.foreground": "#ffffff",
+        "sideBar.border": "#ffffff",
+        
+        "titleBar.activeBackground": "#272727",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveBackground": "#272727",
+        "titleBar.inactiveForeground": "#6c707e", 
+        
+        "tab.activeBackground":"#272727",
+        "tab.inactiveBackground": "#272727",
+        "tab.border": "#272727", 
+        "tab.activeForeground":"#48ff00",
+        "tab.inactiveForeground": "#ffff",
+        "tab.activeBorderTop": "#FFD700", 
+        "tab.unfocusedActiveBorderTop": "#ffffff",
+
+        "list.activeSelectionBackground": "#2E2E2E", 
+        "list.activeSelectionForeground": "#8d8d8d", 
+        "list.inactiveSelectionBackground": "#664141", 
+
+        "editorGroupHeader.tabsBackground": "#272727", 
+        "editorGroupHeader.noTabsBackground": "#272727", 
+        "editorGroup.border": "#272727"
+    },
+    
+    "editor.renderLineHighlight": "all",            
+    "editor.lineNumbers": "on",
+    "editor.guides.highlightActiveIndentation": true, 
+}
