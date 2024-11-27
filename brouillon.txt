@@ -1,0 +1,227 @@
+Voici une base de **tokenColors** uniformisée pour les éléments communs à tous les langages. Je vais utiliser les couleurs que vous préférez (comme vous l'avez mentionné précédemment) et structurer chaque élément en fonction de sa présence dans les langages modernes.
+
+---
+
+### **Base des couleurs**
+| Élément           | Couleur HEX  | Description                         |
+|-------------------|--------------|-------------------------------------|
+| **Commentaire**   | `#0384FC`    | Texte commenté pour tous les langages. |
+| **Keyword**       | `#FBFF00`    | Mots-clés spécifiques au langage (`if`, `else`, `for`, etc.). |
+| **Fonctions**     | `#FF00EA`    | Noms de fonctions ou de méthodes définies. |
+| **Variables**     | `#02FFFB`    | Noms de variables ou identifiants. |
+| **Strings**       | `#FF017C`    | Texte entre guillemets (chaînes de caractères). |
+| **Nombres**       | `#FD7600`    | Constantes numériques. |
+| **Types**         | `#4EC9B0`    | Types de données (`int`, `float`, `string`, etc.). |
+| **Opérateurs**    | `#FF5252`    | Opérations (`+`, `-`, `*`, `=`). |
+
+---
+
+### **Uniformisation des éléments pour tous les langages**
+Voici une structure générique pour le fichier `tokenColors` :
+
+```json
+"tokenColors": [
+  {
+    "name": "Comments",
+    "scope": "comment, punctuation.definition.comment",
+    "settings": {
+      "foreground": "#0384FC",
+      "fontStyle": "italic"
+    }
+  },
+  {
+    "name": "Keywords",
+    "scope": "keyword, storage.type, storage.modifier",
+    "settings": {
+      "foreground": "#FBFF00"
+    }
+  },
+  {
+    "name": "Functions",
+    "scope": "entity.name.function, support.function",
+    "settings": {
+      "foreground": "#FF00EA"
+    }
+  },
+  {
+    "name": "Variables",
+    "scope": "variable, variable.language, support.variable",
+    "settings": {
+      "foreground": "#02FFFB"
+    }
+  },
+  {
+    "name": "Strings",
+    "scope": "string, constant.other.placeholder",
+    "settings": {
+      "foreground": "#FF017C"
+    }
+  },
+  {
+    "name": "Numbers",
+    "scope": "constant.numeric, constant.character.numeric",
+    "settings": {
+      "foreground": "#FD7600"
+    }
+  },
+  {
+    "name": "Types",
+    "scope": "entity.name.type, support.type, storage.type, keyword.type",
+    "settings": {
+      "foreground": "#4EC9B0"
+    }
+  },
+  {
+    "name": "Operators",
+    "scope": "keyword.operator, punctuation.separator",
+    "settings": {
+      "foreground": "#FF5252"
+    }
+  }
+]
+```
+
+---
+
+### **Langages spécifiques : Ajustement des éléments spécifiques**
+
+#### 1. **HTML**
+```json
+{
+  "name": "HTML Tags",
+  "scope": "entity.name.tag",
+  "settings": {
+    "foreground": "#FFD700"
+  }
+},
+{
+  "name": "HTML Attributes",
+  "scope": "entity.other.attribute-name",
+  "settings": {
+    "foreground": "#FF69B4"
+  }
+},
+{
+  "name": "HTML Content",
+  "scope": "text.html",
+  "settings": {
+    "foreground": "#FFFFFF"
+  }
+}
+```
+
+#### 2. **CSS**
+```json
+{
+  "name": "CSS Selectors",
+  "scope": "entity.name.tag.css",
+  "settings": {
+    "foreground": "#FBFF00"
+  }
+},
+{
+  "name": "CSS Properties",
+  "scope": "support.type.property-name.css",
+  "settings": {
+    "foreground": "#FF017C"
+  }
+},
+{
+  "name": "CSS Values",
+  "scope": "support.constant.property-value.css",
+  "settings": {
+    "foreground": "#4EC9B0"
+  }
+}
+```
+
+#### 3. **JavaScript/TypeScript**
+```json
+{
+  "name": "JS/TS Objects",
+  "scope": "variable.other.readwrite, meta.object-literal.key",
+  "settings": {
+    "foreground": "#02FFFB"
+  }
+},
+{
+  "name": "JS Functions",
+  "scope": "support.function, entity.name.function",
+  "settings": {
+    "foreground": "#FF00EA"
+  }
+},
+{
+  "name": "JS Constants",
+  "scope": "constant.language, constant.character",
+  "settings": {
+    "foreground": "#FD7600"
+  }
+}
+```
+
+#### 4. **Python**
+```json
+{
+  "name": "Python Self",
+  "scope": "variable.language.special.self.python",
+  "settings": {
+    "foreground": "#4EC9B0"
+  }
+},
+{
+  "name": "Python Decorators",
+  "scope": "meta.function.decorator.python",
+  "settings": {
+    "foreground": "#FF00EA"
+  }
+}
+```
+
+#### 5. **PHP**
+```json
+{
+  "name": "PHP Variables",
+  "scope": "variable.other.php",
+  "settings": {
+    "foreground": "#02FFFB"
+  }
+},
+{
+  "name": "PHP Superglobals",
+  "scope": "variable.language.php",
+  "settings": {
+    "foreground": "#FFD700"
+  }
+}
+```
+
+#### 6. **SQL**
+```json
+{
+  "name": "SQL Keywords",
+  "scope": "keyword.other.DML.sql",
+  "settings": {
+    "foreground": "#FBFF00"
+  }
+},
+{
+  "name": "SQL Functions",
+  "scope": "support.function.sql",
+  "settings": {
+    "foreground": "#FF00EA"
+  }
+}
+```
+
+---
+
+### **Étapes pour compléter les autres langages**
+1. **Répétez le modèle ci-dessus** pour chaque langage.
+2. Ajoutez les scopes spécifiques à chaque langage en vous basant sur la documentation VS Code pour les `TextMate Scopes` : [Scopes VS Code](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide).
+3. Gardez les couleurs **uniformisées** pour les éléments partagés comme les variables, fonctions, mots-clés, etc.
+
+---
+
+### **Application**
+Ajoutez ce code dans votre fichier `theme.json` dans la section `"tokenColors"`. Si besoin, je peux générer des configurations pour d'autres langages.

@@ -1,35 +1,40 @@
 {
     "files.autoSave": "afterDelay",
-    "explorer.confirmDelete": false,
+
     "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "explorer.confirmDelete": false,
+
+    "workbench.startupEditor": "none",
 
     "git.autofetch": true,
-    "git.enableSmartCommit": true,
     "git.confirmSync": false,
+    "git.enableSmartCommit": true,
     "git.openRepositoryInParentFolders": "never",
-    
+    "githubPullRequests.createOnPublishBranch": "never",
+
     "workbench.iconTheme": "material-icon-theme",
 
-    "security.workspace.trust.untrustedFiles": "open",
-    "doublebot.showInlineKeybindingHint": "Never",
+    "extensions.ignoreRecommendations": true,
 
-    "github.copilot.editor.enableAutoCompletions": true,
+    "security.workspace.trust.untrustedFiles": "open",
+
     "liveServer.settings.donotShowInfoMsg": true,
 
     "editor.formatOnSave": true,
-    "python.formatting.provider": "black",
-
     "editor.fontFamily": "OpenDyslexic",
-    "editor.fontSize": 16, 
-    "editor.lineHeight": 24,                                                 
+    "editor.fontSize": 14, 
+    "editor.lineHeight": 22,                                                 
     "editor.fontLigatures": true,                                          
     "editor.guides.bracketPairs": true, 
     "editor.bracketPairColorization.enabled": true,                        
     "editor.cursorStyle": "block",                                       
     "editor.cursorBlinking": "smooth",           
-    
     "editor.stickyScroll.enabled": true,
-    
+    "editor.renderLineHighlight": "all",            
+    "editor.lineNumbers": "on",
+    "editor.guides.highlightActiveIndentation": true, 
+
     "workbench.editorAssociations": {
         "*.xml": "default", 
         "*.json": "default",
@@ -44,47 +49,65 @@
         "*.hpp": "default",
         "*.md": "default",
     },
-
-
-    "workbench.colorCustomizations": {
-        "editorError.foreground": "#ff0000",            
-        "editorWarning.foreground": "#ff8800",          
-        "editorInfo.foreground": "#0080ff", 
-        "editorGhostText.background": "#272727",
-        "editorGhostText.foreground": "#c4c4c4",
-        "editorGhostText.border": "#ff017c",
-
-        "activityBar.background": "#272727",
-        "activityBar.foreground": "#ffffff",
-        "activityBar.inactiveForeground": "#8d8d8d",
-        
-        "sideBar.background": "#272727",
-        "sideBar.foreground": "#ffffff",
-        "sideBar.border": "#ffffff",
-        
-        "titleBar.activeBackground": "#272727",
-        "titleBar.activeForeground": "#ffffff",
-        "titleBar.inactiveBackground": "#272727",
-        "titleBar.inactiveForeground": "#6c707e", 
-        
-        "tab.activeBackground":"#272727",
-        "tab.inactiveBackground": "#272727",
-        "tab.border": "#272727", 
-        "tab.activeForeground":"#48ff00",
-        "tab.inactiveForeground": "#ffff",
-        "tab.activeBorderTop": "#FFD700", 
-        "tab.unfocusedActiveBorderTop": "#ffffff",
-
-        "list.activeSelectionBackground": "#2E2E2E", 
-        "list.activeSelectionForeground": "#8d8d8d", 
-        "list.inactiveSelectionBackground": "#664141", 
-
-        "editorGroupHeader.tabsBackground": "#272727", 
-        "editorGroupHeader.noTabsBackground": "#272727", 
-        "editorGroup.border": "#272727"
-    },
-    
-    "editor.renderLineHighlight": "all",            
-    "editor.lineNumbers": "on",
-    "editor.guides.highlightActiveIndentation": true, 
 }
+
+
+
+"tokenColors": [
+		{
+			"name": "Variables",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#02FFFB"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#FBFF00"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#FF00EA"
+			}
+		},
+		{
+			"name": "Types",
+			"scope": "entity.name.type, support.type",
+			"settings": {
+				"foreground": "#06f6c6"
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#FD7600"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"settings": {
+				"foreground": "#FF017C"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": "comment, punctuation.definition.comment",
+			"settings": {
+				"foreground": "#0384FC",
+				"fontStyle": "italic underline"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#ff0000"
+			}
+		},
