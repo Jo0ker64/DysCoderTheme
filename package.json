@@ -1,21 +1,24 @@
 {
-  "name": "dyscoder-by-jo0ker64",
-  "displayName": "DysCoder Theme",
-  "description": "An accessible VS Code theme tailored for developers with Dyslexia or similar needs.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.95.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "DysCoder",
-        "uiTheme": "vs",
-        "path": "./themes/DysCoder-color-theme.json"
-      }
-    ]
-  }
+    "name": "dyscoder-theme",
+    "displayName": "DysCoder Theme",
+    "description": "Un thème pensé pour les développeurs avec des besoins spécifiques, comme les utilisateurs dyslexiques.",
+    "version": "1.0.0",
+    "publisher": "Jo0ker64",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Jo0ker64/DysCoderTheme.git"
+    },
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DysCoder Universal",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DysCoder-color-theme.json"
+            }
+        ]
+    }
 }
