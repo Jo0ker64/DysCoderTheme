@@ -31,55 +31,35 @@ Pour une expérience optimale, nous vous recommandons d'ajouter les paramètres 
 ```json
 {
     "files.autoSave": "afterDelay",
-
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmPasteNative": false,
     "explorer.confirmDelete": false,
-
-    "workbench.startupEditor": "none",
-
+    "explorer.confirmDragAndDrop": false,
     "git.autofetch": true,
-    "git.confirmSync": false,
     "git.enableSmartCommit": true,
+    "git.confirmSync": false,
     "git.openRepositoryInParentFolders": "never",
-    "githubPullRequests.createOnPublishBranch": "never",
-
     "workbench.iconTheme": "material-icon-theme",
-
-    "extensions.ignoreRecommendations": true,
-
     "security.workspace.trust.untrustedFiles": "open",
-
+    "doublebot.showInlineKeybindingHint": "Never",
+    "github.copilot.editor.enableAutoCompletions": true,
     "liveServer.settings.donotShowInfoMsg": true,
-
+    "python.formatting.provider": "black",
     "editor.formatOnSave": true,
     "editor.fontFamily": "OpenDyslexic",
-    "editor.fontSize": 14, 
-    "editor.lineHeight": 22,                                                 
-    "editor.fontLigatures": true,                                          
-    "editor.guides.bracketPairs": true, 
-    "editor.bracketPairColorization.enabled": true,                        
-    "editor.cursorStyle": "block",                                       
-    "editor.cursorBlinking": "smooth",           
+    "editor.fontSize": 16,
+    "editor.lineHeight": 24,
+    "editor.fontLigatures": true,
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "smooth",
     "editor.stickyScroll.enabled": true,
-    "editor.renderLineHighlight": "all",            
+    "editor.renderLineHighlight": "all",
     "editor.lineNumbers": "on",
-    "editor.guides.highlightActiveIndentation": true, 
-
-    "workbench.editorAssociations": {
-        "*.xml": "default", 
-        "*.json": "default",
-        "*.html": "default",
-        "*.css": "default",
-        "*.js": "default",
-        "*.py": "default",
-        "*.java": "default",
-        "*.cpp": "default",
-        "*.c": "default",
-        "*.h": "default",
-        "*.hpp": "default",
-        "*.md": "default"
-    }
+    "editor.guides.highlightActiveIndentation": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.cursorBlinking": true,
 }
 ```
 
@@ -215,5 +195,3 @@ Si tu veux redimensionner une image, tu dois utiliser du HTML intégré :
 ### Où placer les images ?
 - **Dans un dossier dédié** : Tu peux créer un dossier `images/` dans ton projet pour organiser tes ressources.
 - **URL directe** : Pratique pour les images hébergées en ligne.
-
-Avec ces méthodes, tu peux intégrer des images élégamment dans ton fichier `README.md`. 😊
