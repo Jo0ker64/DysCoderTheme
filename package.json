@@ -4,20 +4,27 @@
     "description": "Un thème pensé pour les développeurs avec des besoins spécifiques, comme les utilisateurs dyslexiques.",
     "version": "1.0.0",
     "publisher": "Jo0ker64",
+    "license": "SEE LICENSE IN LICENSE",
+    "icon": "images/icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/Jo0ker64/DysCoderTheme.git"
+    },
+    "homepage": "https://github.com/Jo0ker64/DysCoderTheme#readme",
+    "bugs": {
+        "url": "https://github.com/Jo0ker64/DysCoderTheme/issues"
     },
     "engines": {
         "vscode": "^1.80.0"
     },
     "categories": ["Themes"],
+    "keywords": ["theme", "dark theme", "accessibility", "dyslexia", "readability", "dyscoder"],
     "contributes": {
         "themes": [
             {
                 "label": "DysCoder Universal",
                 "uiTheme": "vs-dark",
-                "path": "./themes/DysCoder-color-theme.json"
+                "path": "./themes/DysCoder_color_theme.json"
             }
         ]
     }

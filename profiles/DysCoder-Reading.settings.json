@@ -1,0 +1,18 @@
+{
+  "workbench.colorTheme": "DysCoder Universal",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 28,
+  "editor.letterSpacing": 0.4,
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "all",
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.highlightActiveBracketPair": true,
+  "explorer.compactFolders": false,
+  "explorer.sortOrder": "foldersNestsFiles",
+  "workbench.tree.indent": 30,
+  "workbench.tree.renderIndentGuides": "always",
+  "breadcrumbs.enabled": true,
+  "window.density.layout": "default"
+}

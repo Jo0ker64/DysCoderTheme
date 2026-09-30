@@ -1,5 +1,5 @@
 .vscode/**
-.vscode-test/**
+.git/**
+Essais/**
+*.vsix
 .gitignore
-vsc-extension-quickstart.md
-Brouillon/
